@@ -3,7 +3,7 @@
 ### Contributors: Elena Guo (elena-guo), Borna Shani(borna471), Erping Sun(ErpingS)
 ### Designer: Alicia Zhang (ahliciah)
 
-#### Tabby Pals: The Fun and Casual Tab Tracking App for Friends.
+#### Tabby Pals: The Fun and Casual Tab Tracking App for Friends!
 
 Do you and your friends struggle to keep track of who paid for what when you go out? Tired of the tedious and awkward process of trying to split the tab? Introducing Tabby Pals - the fun, casual, and lighthearted app that makes tab splitting a breeze within your friend circle.
 
