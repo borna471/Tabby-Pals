@@ -11,7 +11,7 @@
     height: 200px;
     padding: 25px;
     margin: 100px;
-    border-radius: 10%;
+    border-radius: 20px;
 }
 
 .profile-container-upper {
@@ -29,5 +29,6 @@
 }
 
 .profile-description {
-    align-items: center;
+    background-color: black;
+    text-align: center;
 }
