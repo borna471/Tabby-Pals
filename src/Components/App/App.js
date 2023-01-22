@@ -37,6 +37,8 @@ function App() {
       image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
       
       />
+    
+
 
       <div className="activity">
         <h1>Header</h1>

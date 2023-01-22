@@ -10,7 +10,6 @@ function Activity(props) {
             <div className="user-section">
                 <div className="profile-list">
                     
-
                 </div>
 
             </div>
@@ -19,6 +18,5 @@ function Activity(props) {
 
         </div>
     )
-
-
 }
+
