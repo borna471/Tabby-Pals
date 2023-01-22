@@ -1,17 +1,22 @@
 import "./Friends.css"
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function Friends(props) {
     
-    const [counter, setCounter] = useState(localStorage.getItem("counter"))
+    const [counter, setCounter] = useState(0);
+
+    useEffect(() => {
+        setCounter(localStorage.getItem("counter"))
+    }, [])
 
     function add() {
-        if (!localStorage.getItem("counter")) {
-          setCounter(0)
+        if (!localStorage.getItem("counter")) {   
+            setCounter(0)  
         }
+            localStorage.setItem("counter", parseInt(counter) + 1);
+            setCounter(localStorage.getItem("counter"))
+        
     
-       localStorage.setItem("counter", parseInt(counter) + 1);
-       setCounter(localStorage.getItem("counter"))
     }
 
     function sub() {

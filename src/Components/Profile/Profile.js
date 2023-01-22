@@ -12,7 +12,7 @@ function Profile(props) {
                 />
                 <h1 className="profile-name">{props.name}</h1>
             </div>
-            <p>{props.description}</p>
+            <p className="profile-desc">{props.description}</p>
         </div>
     )
 

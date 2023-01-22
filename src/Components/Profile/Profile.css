@@ -1,15 +1,14 @@
 
-
 .profile-container {
     display: flex;
     flex-direction: column;
     align-items: left;
     background-color: black;
-    width: 400px;
-    height: 200px;
+    width: 50%;
+    height: 250px;
     padding: 25px;
-    margin: 100px;
-    border-radius: 10%;
+    margin: 50px;
+    border-radius: 20px;
 }
 
 .profile-container-upper {
@@ -24,4 +23,9 @@
 
 .profile-name {
     background-color: black; 
+}
+
+.profile-desc{
+    background-color: black;
+    text-align: center;
 }
