@@ -10,19 +10,20 @@ function Friends(props) {
     }, [])
 
     function add() {
-        if (!localStorage.getItem("counter")) {   
-            setCounter(0)  
-        }
-            localStorage.setItem("counter", parseInt(counter) + 1);
-            setCounter(localStorage.getItem("counter"))
+        // if (!localStorage.getItem("counter")) {   
+        //     setCounter(0)  
+        // }
+        
+        localStorage.setItem("counter", parseInt(counter) + 1);
+        setCounter(localStorage.getItem("counter"))
         
     
     }
 
     function sub() {
-        if (!localStorage.getItem("counter")) {
-          setCounter(0)
-        }
+        // if (!localStorage.getItem("counter")) {
+        //   setCounter(0)
+        // }
     
        localStorage.setItem("counter", parseInt(counter) - 1);
        setCounter(localStorage.getItem("counter"))
@@ -31,8 +32,10 @@ function Friends(props) {
     return (
     <div class="friends-container"> 
         <div class="image-container">
-            <img
-            width= "50"
+            <img 
+            width= "130"
+            border-radius = "15"
+            className = "pfp"
             src={props.image}
             />
         </div>
@@ -40,9 +43,33 @@ function Friends(props) {
         <div class="description-container">
             <h2> {props.name}</h2>
             <h4> {counter}</h4>
-            <button onClick={add}>add $1</button>
-            <button onClick={sub}>sub $1</button>
-            
+            <div class="buttons">
+                <div className="add-buttons">
+                    <button className="add-button" onClick={add}>
+                        <img width="25px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                    </button>
+                    <button className="add-button" onClick={add}>
+                        <img width="25px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                    </button>
+                    <button className="add-button" onClick={add}>
+                        <img width="25px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                    </button>
+                    
+                </div>
+
+                <div className="sub-buttons">
+                    <button className ="sub-button" onClick={sub}>
+                        <img width="25px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                    </button>
+                    <button className ="sub-button" onClick={sub}>
+                        <img width="25px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                    </button>
+                    <button className ="sub-button" onClick={sub}>
+                        <img width="25px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                    </button>
+                    
+                </div>
+            </div>
         </div>
 
     </div>

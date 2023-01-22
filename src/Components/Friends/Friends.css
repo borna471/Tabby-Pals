@@ -1,14 +1,57 @@
 
 .friends-container {
-    background-color: lightpink;
-    width: 100px;
+    
+    width: 280px;
+    height: 120px;
+    
     display: flex;
     flex-direction: row;
+    align-items: start;
+    gap: 15px;
 
 } 
 
+.pfp {
+    border-radius: 15px;
+}
+
+.image-container {
+    padding: 10px;
+}
+
 .description-container {
-    background-color: lightblue;
-    width: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: space-evenly;
+    line-height: 0px;
+    height: 120px;
+    align-items: start;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-button {
+    border-radius: 10px;
+    border-color: green;
+}
+
+.add-buttons {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sub-buttons {
+    display: flex;
+    flex-direction: row; 
     
+}
+
+.sub-button {
+    border-radius: 10px;
+    border-color: red;
 }
