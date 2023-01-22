@@ -15,10 +15,12 @@ function App() {
         <div class="hero">
           <img class="logo" src="https://images.wideopenpets.com/wp-content/uploads/2018/02/AdobeStock_109255057-770x405.jpg"></img>
           <h1 class="title">TABBY PALS</h1>
-          <a class="button" href="#">Start Tracking</a>
+          <a class="button" href="#main">Start Tracking</a>
         </div>
 
-    <Profile
+    <div className="main" id="main">
+
+    <Profile 
       name="Elena Guo"
       description="Money"
       image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
@@ -30,6 +32,8 @@ function App() {
       image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
       
       />
+    </div>
+
 
     </div>
   );

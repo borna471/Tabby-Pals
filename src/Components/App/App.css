@@ -3,15 +3,11 @@
   --background: #383f51;
 }
 
-.root{
-  height: 100%;
-  scroll-behavior: smooth;
-}
-
 *{
   background-color: var(--background);
   color: white;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .logo{
@@ -24,10 +20,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 100vh;
 }
 
 .title{
-  font-size: 40px;
+  font-size: 50px;
   letter-spacing: 3px;
 }
 
