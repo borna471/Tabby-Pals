@@ -44,6 +44,12 @@ function Friends(props) {
 
         <div class="description-container">
             <h2> {props.name}</h2>
+            <div class="counters">
+                {/* <h4> {localStorage.getItem("counter")[0]}</h4>
+                <h4> {localStorage.getItem("counter")[1]}</h4>
+                <h4> {localStorage.getItem("counter")[2]}</h4>
+                <h4> {localStorage.getItem("counter")[3]}</h4> */}
+            </div>
             <h4> {localStorage.getItem("counter")}</h4>
             <div class="buttons">
                 <div className="add-buttons">

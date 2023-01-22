@@ -73,7 +73,9 @@
 
 }
 
-
+.setup-one{
+   height: 100vh;
+}
 .group-name{
   height: 100vh;
   display: flex;
@@ -124,7 +126,7 @@
   width: 100%;
   height: 60vh;
   border-radius: 20px;
-  background-color: black;
+  background-color: #E78FF2;
   margin: 50px;
 }
 

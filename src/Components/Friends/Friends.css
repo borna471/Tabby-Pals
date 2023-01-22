@@ -1,6 +1,6 @@
 
 .friends-container {
-    
+    background-color: #6777E1;
     width: 280px;
     height: 120px;
     
@@ -12,14 +12,17 @@
 } 
 
 .pfp {
+    background-color: #6777E1;
     border-radius: 15px;
 }
 
 .image-container {
+    background-color: #6777E1;
     padding: 10px;
 }
 
 .description-container {
+    background-color: #6777E1;
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -54,4 +57,9 @@
 .sub-button {
     border-radius: 10px;
     border-color: red;
+}
+
+.counters {
+    display: flex;
+    flex-direction: row;
 }

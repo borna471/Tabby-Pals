@@ -5,7 +5,6 @@ import Profile from '../Profile/Profile';
 import Friends from '../Friends/Friends';
 import Activity from '../Activity/Activity';
 import Leaderboard from '../Leaderboard/Leaderboard';
-import GroupName from '../Pages/GroupName'
 
 
 <style>
@@ -14,33 +13,89 @@ import GroupName from '../Pages/GroupName'
 
 function App() {
 
-  const [counter, setCounter] = useState(localStorage.getItem("counter"));
+  const [counter1, setCounter1] = useState(localStorage.getItem("counter1"));
+  const [counter2, setCounter2] = useState(localStorage.getItem("counter2"));
+  const [counter3, setCounter3] = useState(localStorage.getItem("counter3"));
+  const [counter4, setCounter4] = useState(localStorage.getItem("counter4"));
 
-  function add() {
-    if (!localStorage.getItem("counter")) {   
-        localStorage.setItem("counter", 0);
-         setCounter(0)
+  function add1() {
+    if (!localStorage.getItem("counter1")) {   
+        localStorage.setItem("counter1", 0);
+         setCounter1(0)
     }
-
-
-    let prev = localStorage.getItem("counter")
-    localStorage.setItem("counter", parseInt(prev) + 1);
-    setCounter(prev + 1)
-    
-    
-
+    let prev = localStorage.getItem("counter1")
+    localStorage.setItem("counter1", parseInt(prev) + 1);
+    setCounter1(prev + 1)
   }
 
-  function sub() {
-    if (!localStorage.getItem("counter")) {
-        localStorage.setItem("counter", 0);
-        setCounter(0)
+  function sub1() {
+    if (!localStorage.getItem("counter1")) {
+        localStorage.setItem("counter1", 0);
+        setCounter1(0)
     }
+    let prev = localStorage.getItem("counter1")
+   localStorage.setItem("counter1", parseInt(prev) - 1);
+   setCounter1(prev - 1)
+  }
 
+  function add2() {
+    if (!localStorage.getItem("counter2")) {   
+        localStorage.setItem("counter2", 0);
+         setCounter2(0)
+    }
+    let prev = localStorage.getItem("counter2")
+    localStorage.setItem("counter2", parseInt(prev) + 1);
+    setCounter2(prev + 1)
+  }
 
-    let prev = localStorage.getItem("counter")
-   localStorage.setItem("counter", parseInt(prev) - 1);
-   setCounter(prev - 1)
+  function sub2() {
+    if (!localStorage.getItem("counter2")) {
+        localStorage.setItem("counter2", 0);
+        setCounter2(0)
+    }
+    let prev = localStorage.getItem("counter2")
+   localStorage.setItem("counter2", parseInt(prev) - 1);
+   setCounter2(prev - 1)
+  }
+
+  function add3() {
+    if (!localStorage.getItem("counter3")) {   
+        localStorage.setItem("counter3", 0);
+         setCounter3(0)
+    }
+    let prev = localStorage.getItem("counter3")
+    localStorage.setItem("counter3", parseInt(prev) + 1);
+    setCounter3(prev + 1)
+  }
+
+  function sub3() {
+    if (!localStorage.getItem("counter3")) {
+        localStorage.setItem("counter3", 0);
+        setCounter3(0)
+    }
+    let prev = localStorage.getItem("counter3")
+   localStorage.setItem("counter3", parseInt(prev) - 1);
+   setCounter3(prev - 1)
+  }
+
+  function add4() {
+    if (!localStorage.getItem("counter4")) {   
+        localStorage.setItem("counter4", 0);
+         setCounter4(0)
+    }
+    let prev = localStorage.getItem("counter4")
+    localStorage.setItem("counter4", parseInt(prev) + 1);
+    setCounter4(prev + 1)
+  }
+
+  function sub4() {
+    if (!localStorage.getItem("counter4")) {
+        localStorage.setItem("counter4", 0);
+        setCounter4(0)
+    }
+    let prev = localStorage.getItem("counter4")
+   localStorage.setItem("counter4", parseInt(prev) - 1);
+   setCounter4(prev - 1)
   }
 
   return (
@@ -50,10 +105,10 @@ function App() {
       <div class="hero">
         <img class="logo" src="https://images.wideopenpets.com/wp-content/uploads/2018/02/AdobeStock_109255057-770x405.jpg"></img>
         <h1 class="title">TABBY PALS</h1>
-        <a class="button" href="GroupName.js#squad-name">Start Tracking!</a>
+        <a class="button" href="#group-name">Start Tracking!</a>
       </div>
 
-      <div class="setup-one">
+      <div class="setup-one" id="group-name">
         <div class="group-name">
           <h1 className="squad-name">Squad Name</h1>
           <a class="button" href="#invite-url">Next</a>
@@ -90,38 +145,38 @@ function App() {
 
             <div class="buttons">
               <div class="button-row">
-                <button className="add-button" onClick={add}>
-                  <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                <button className="add-button" onClick={add1}>
+                  <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/hot-beverage_2615.png"/>
                 </button>
-                <button className="add-button" onClick={add}>
-                  <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                <button className="add-button" onClick={add2}>
+                  <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/bubble-tea_1f9cb.png"/>
                 </button>
               </div>
 
               <div class="button-row">
-                <button className="add-button" onClick={add}>
-                <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                <button className="add-button" onClick={add3}>
+                <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/sandwich_1f96a.png"/>
                 </button>
-                <button className="add-button" onClick={add}>
-                  <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
-                </button>
-              </div>
-
-              <div class="button-row" >
-                <button className="sub-button" onClick={sub}>
-                  <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
-                </button>
-                <button className="sub-button" onClick={sub}>
-                  <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                <button className="add-button" onClick={add4}>
+                  <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/curry-rice_1f35b.png"/>
                 </button>
               </div>
 
               <div class="button-row" >
-                <button className="sub-button" onClick={sub}>
-                <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                <button className="sub-button" onClick={sub1}>
+                <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/hot-beverage_2615.png"/>
                 </button>
-                <button className="sub-button" onClick={sub}>
-                  <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
+                <button className="sub-button" onClick={sub2}>
+                  <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/bubble-tea_1f9cb.png"/>
+                </button>
+              </div>
+
+              <div class="button-row" >
+                <button className="sub-button" onClick={sub3}>
+                <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/sandwich_1f96a.png"/>
+                </button>
+                <button className="sub-button" onClick={sub4}>
+                <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/curry-rice_1f35b.png"/>
                 </button>
               </div>
 
@@ -141,7 +196,7 @@ function App() {
                 />
                 <Activity
                   name="Erping Sun"
-                  description="owex 1x coffee"
+                  description="owes 1x coffee"
                   image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
                 />
             </div>
@@ -159,3 +214,4 @@ function App() {
 }
 
 export default App;
+

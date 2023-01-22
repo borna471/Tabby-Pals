@@ -31,23 +31,23 @@ function Profile(props) {
                     /> */}
 
                     <div class="icon-counter-pair">
-                        <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
-                           <h4> {localStorage.getItem("counter")}</h4>
+                        <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/hot-beverage_2615.png"/>
+                           <h4> {localStorage.getItem("counter1")}</h4>
                     </div>
                            
                     <div class="icon-counter-pair">
-                        <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
-                           <h4> {localStorage.getItem("counter")}</h4>
+                        <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/bubble-tea_1f9cb.png"/>
+                           <h4> {localStorage.getItem("counter2")}</h4>
                     </div>
 
                     <div class="icon-counter-pair">
-                        <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
-                           <h4> {localStorage.getItem("counter")}</h4>
+                        <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/sandwich_1f96a.png"/>
+                           <h4> {localStorage.getItem("counter3")}</h4>
                     </div>
 
                     <div class="icon-counter-pair">
-                        <img width="60px" src="https://cdn-icons-png.flaticon.com/512/4343/4343662.png"/>
-                           <h4> {localStorage.getItem("counter")}</h4>
+                        <img width="60px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/curry-rice_1f35b.png"/>
+                           <h4> {localStorage.getItem("counter4")}</h4>
                     </div>
                 </div>
 
