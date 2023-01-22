@@ -5,6 +5,8 @@
     flex-direction: column;
     align-items: left;
     background-color: black;
+    row-gap: 15px;
+
     width: 400px;
     height: 200px;
     padding: 25px;
