@@ -1,5 +1,6 @@
 import "./Leaderboard.css"
 import Friends from '../Friends/Friends';
+import Friends_zero from '../Friends_zero/Friends_zero';
 
 function Leaderboard() {
 
@@ -11,27 +12,27 @@ function Leaderboard() {
 
             <Friends className="friend"
                 name="Elena"
-                image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
+                image="https://previews.123rf.com/images/sabuhinovruzov/sabuhinovruzov1706/sabuhinovruzov170600159/79516357-cat-simple-vector-icon-black-and-white-illustration-of-cat-outline-linear-cat-head-icon-eps-10.jpg"
             />
 
-            <Friends className="friend"
+            <Friends_zero className="friend"
                 name="Alicia"
    
-                image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
+                image="https://static.vecteezy.com/system/resources/thumbnails/006/720/668/small/dog-face-logo-free-vector.jpg"
       
             />
 
-            <Friends className="friend"
+            <Friends_zero className="friend"
                 name="Erping"
    
-                image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
+                image="https://static.vecteezy.com/system/resources/previews/014/536/091/original/cute-penguin-logo-free-vector.jpg"
       
             />
 
-            <Friends className="friend"
+            <Friends_zero className="friend"
                 name="Borna"
    
-                image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
+                image="https://static.vecteezy.com/system/resources/thumbnails/000/546/696/small_2x/RACCOON_009.jpg"
       
             />
 

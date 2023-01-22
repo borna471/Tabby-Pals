@@ -63,3 +63,8 @@
     justify-content: space-evenly;
     border-radius: 15px;
 }
+
+.counter {
+    display: flex;
+    flex-direction: column;
+}

@@ -5,6 +5,7 @@ import Profile from '../Profile/Profile';
 import Friends from '../Friends/Friends';
 import Activity from '../Activity/Activity';
 import Leaderboard from '../Leaderboard/Leaderboard';
+// import Logo from '../Images/Logo.png';
 
 
 <style>
@@ -103,14 +104,17 @@ function App() {
 
     <div className="App">
       <div class="hero">
-        <img class="logo" src="https://images.wideopenpets.com/wp-content/uploads/2018/02/AdobeStock_109255057-770x405.jpg"></img>
-        <h1 class="title">TABBY PALS</h1>
+        <img class="logo" width="45%" src="https://i.imgur.com/0toFCNj.png"></img>
         <a class="button" href="#group-name">Start Tracking!</a>
       </div>
 
       <div class="setup-one" id="group-name">
+        <div class="hero-logo">
+          <img className="logo-image" src="https://i.imgur.com/MBoGWL0.png"></img>
+        </div>
         <div class="group-name">
           <h1 className="squad-name">Squad Name</h1>
+          <p class="name-bar">Your Name</p>
           <a class="button" href="#invite-url">Next</a>
         </div>
         <div class="progress-bar">
@@ -120,8 +124,12 @@ function App() {
       </div>
 
       <div class="setup-two" id="invite-url">
+      <div class="hero-logo">
+          <img className="logo-image" src="https://i.imgur.com/MBoGWL0.png"></img>
+        </div>
         <div class="group-name">
           <h1 className="squad-name">Invite Friends</h1>
+          <p class="invite-bar">www.tabbypals.com/?3M4n9P</p>
           <a class="button" href="#main">Start!</a>
         </div>
         <div class="progress-bar">
@@ -137,7 +145,7 @@ function App() {
             name="Elena Guo"
             status="Tabby King"
             description="Your Status"
-            image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
+            image="https://previews.123rf.com/images/sabuhinovruzov/sabuhinovruzov1706/sabuhinovruzov170600159/79516357-cat-simple-vector-icon-black-and-white-illustration-of-cat-outline-linear-cat-head-icon-eps-10.jpg"
           />
 
           <div className="main-act-but">
@@ -187,17 +195,22 @@ function App() {
                 <Activity
                   name="Elena Guo"
                   description="bought 2x coffee"
-                  image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
+                  image="https://previews.123rf.com/images/sabuhinovruzov/sabuhinovruzov1706/sabuhinovruzov170600159/79516357-cat-simple-vector-icon-black-and-white-illustration-of-cat-outline-linear-cat-head-icon-eps-10.jpg"
                 />
                 <Activity
                   name="Alicia Zhang"
                   description="owes 1x coffee"
-                  image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
+                  image="https://static.vecteezy.com/system/resources/thumbnails/006/720/668/small/dog-face-logo-free-vector.jpg"
                 />
                 <Activity
                   name="Erping Sun"
                   description="owes 1x coffee"
-                  image="https://media.licdn.com/dms/image/D5603AQGwotX59PCeUw/profile-displayphoto-shrink_400_400/0/1667781351274?e=1679529600&v=beta&t=N7m-e2GcQddZN8WzlntmKCyCtTCLzS-00wPsjC7BzgY"
+                  image="https://static.vecteezy.com/system/resources/previews/014/536/091/original/cute-penguin-logo-free-vector.jpg"
+                />
+                <Activity
+                  name="Elena Guo"
+                  description="bought 1x sandwich"
+                  image="https://previews.123rf.com/images/sabuhinovruzov/sabuhinovruzov1706/sabuhinovruzov170600159/79516357-cat-simple-vector-icon-black-and-white-illustration-of-cat-outline-linear-cat-head-icon-eps-10.jpg"
                 />
             </div>
           </div>

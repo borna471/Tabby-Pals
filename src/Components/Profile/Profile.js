@@ -10,8 +10,6 @@ function Profile(props) {
             <div className="profile-container-upper">
                 <img 
                     className="profile-img"
-                    width="100"
-                    height="100"
                     src={props.image}
                 />
                 <h1 className="profile-name">{props.name}</h1>

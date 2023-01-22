@@ -1,4 +1,4 @@
-import "./Friends.css"
+import "../Friends/Friends.css";
 import React, { useState, useEffect } from "react";
 
 function Friends(props) {
@@ -132,21 +132,21 @@ function Friends(props) {
                     <div class="counter-row">
                         <div class="counter">
                         <img width="30px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/hot-beverage_2615.png"/>
-                        <h4> {localStorage.getItem("counter1")}</h4>
+                        <h4> {-1}</h4>
                         </div>
                         <div class="counter">
                         <img width="30px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/bubble-tea_1f9cb.png"/>                    
-                        <h4> {localStorage.getItem("counter2")}</h4>
+                        <h4> {0}</h4>
                         </div>
                     </div>
                     <div class="counter-row">
                         <div class="counter">
                             <img width="30px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/sandwich_1f96a.png"/>
-                            <h4> {localStorage.getItem("counter3")}</h4>
+                            <h4> {-1}</h4>
                         </div>
                         <div class="counter">
                             <img width="30px" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/curry-rice_1f35b.png"/>
-                            <h4> {localStorage.getItem("counter4")}</h4>
+                            <h4> {0}</h4>
                         </div>
                     </div>
                 
