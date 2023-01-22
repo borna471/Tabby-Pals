@@ -1,0 +1,14 @@
+
+.friends-container {
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+
+} 
+
+.description-container {
+    background-color: lightblue;
+    width: 50px;
+    
+}
