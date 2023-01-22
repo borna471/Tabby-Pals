@@ -1,4 +1,4 @@
-# Tabby Palls (nwHacks 2023)
+# Tabby Pals (nwHacks 2023)
 
 ### Contributors: Elena Guo (elena-guo), Borna Shani(borna471), Erping Sun(erpings)
 ### Designer: Alicia Zhang
