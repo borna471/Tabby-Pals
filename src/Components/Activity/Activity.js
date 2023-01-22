@@ -12,8 +12,8 @@ function Activity(props) {
                 />
             </div>
             <div className="text">
-                <h4 className="profile-name">{props.name}</h4>
-                <p className="profile-desc">{props.description}</p> 
+                <h4 className="friend-name">{props.name}</h4>
+                <p className="friend-desc">{props.description}</p> 
                 <div className="line"></div>
             </div>
             

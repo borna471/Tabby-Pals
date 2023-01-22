@@ -3,29 +3,31 @@ import React, { useState, useEffect } from "react";
 
 function Friends(props) {
     
-    const [counter, setCounter] = useState(0);
-
-    useEffect(() => {
-        setCounter(localStorage.getItem("counter"))
-    }, [])
+    const [counter, setCounter] = useState(localStorage.getItem("counter"));
 
     function add() {
-        // if (!localStorage.getItem("counter")) {   
-        //     setCounter(0)  
-        // }
-        
-        localStorage.setItem("counter", parseInt(counter) + 1);
+        if (!localStorage.getItem("counter")) {   
+            localStorage.setItem("counter", 0);
+            setCounter(0)  
+        }
+
+
+        let prev = localStorage.getItem("counter")
+        localStorage.setItem("counter", parseInt(prev) + 1);
         setCounter(localStorage.getItem("counter"))
         
     
     }
 
     function sub() {
-        // if (!localStorage.getItem("counter")) {
-        //   setCounter(0)
-        // }
-    
-       localStorage.setItem("counter", parseInt(counter) - 1);
+        if (!localStorage.getItem("counter")) {
+            localStorage.setItem("counter", 0);
+          setCounter(0)
+        }
+
+
+        let prev = localStorage.getItem("counter")
+       localStorage.setItem("counter", parseInt(prev) - 1);
        setCounter(localStorage.getItem("counter"))
     }
 
@@ -42,7 +44,7 @@ function Friends(props) {
 
         <div class="description-container">
             <h2> {props.name}</h2>
-            <h4> {counter}</h4>
+            <h4> {localStorage.getItem("counter")}</h4>
             <div class="buttons">
                 <div className="add-buttons">
                     <button className="add-button" onClick={add}>

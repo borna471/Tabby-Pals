@@ -1,14 +1,22 @@
 .container {
     background-color: black;
-    width: 280px;
+    width: 400px;
     height: 820px;
-    gap: 40px;
+    gap: 36px;
     display: flex;
-    
+    padding: 25px;
+    margin: 50px;
     flex-direction: column;
     align-items: start;
+    border-radius: 20px;
+    align-items: center;
 }
 
 .leaderboard-header {
     background-color: black;
+    color: lightblue;
+}
+
+.friend {
+    width: 100px;
 }
