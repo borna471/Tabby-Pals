@@ -1,6 +1,6 @@
 # Tabby Pals (nwHacks 2023)
 
-### Contributors: Elena Guo (elena-guo), Borna Shani(borna471), Erping Sun(ErpingS)
+### Contributors: Elena Guo (elena-guo), Borna Shani (borna471), Erping Sun (erpings)
 ### Designer: Alicia Zhang (ahliciah)
 
 #### Tabby Pals: The Fun and Casual Tab Tracking App for Friends!
